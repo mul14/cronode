@@ -1,5 +1,5 @@
 {
-  "name": "@mul14/node-cron-expressive",
+  "name": "node-cron-expressive",
   "version": "1.0.0",
   "description": "Node cron with expressive code.",
   "main": "src/index.js",
