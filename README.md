@@ -5,8 +5,11 @@
 ## Usage
 
 ```js
+const Cron = require('node-cron-expressive')
+
 Cron.job(() => {
 
+  // Tasks
   console.log((new Date().toLocaleTimeString())
 
 }).everyMinutes().run()
@@ -16,15 +19,15 @@ Cron.job(() => {
 
 | Method                 | Description      |
 |------------------------|------------------|
-| run()                  | Run the task     |
-| yearly()               |                  |
-| annually()             |                  |
-| monthly()              |                  |
-| weekly()               |                  |
-| daily()                |                  |
-| hourly()               |                  |
-| everyMinutes()         |                  |
-| everyFiveMinutes()     |                  |
-| everyTenMinutes()      |                  |
-| everyFifteenMinutes()  |                  |
-| everyThirtyMinutes()   |                  |
+| `run()`                | Run the task     |
+| `yearly()`             |                  |
+| `annually()`           |                  |
+| `monthly()`            |                  |
+| `weekly()`             |                  |
+| `daily()`              |                  |
+| `hourly()`             |                  |
+| `everyMinutes()`       |                  |
+| `everyFiveMinutes()`   |                  |
+| `everyTenMinutes()`    |                  |
+| `everyFifteenMinutes()`|                  |
+| `everyThirtyMinutes()` |                  |
