@@ -1,18 +1,30 @@
-# Node Cron Expressive
+# Cronode
 
 > Status: In development
+
+Cron for Node.js with expressive code.
+
+## Installation
+
+Use [npm](https://docs.npmjs.com/cli/install) or [yarn](https://yarnpkg.com) to install `cronode`.
+
+```
+npm install cronode
+# or
+yarn add cronode
+```
 
 ## Usage
 
 ```js
-const Cron = require('node-cron-expressive')
+const Cron = require('cronode')
 
 Cron.job(() => {
 
   // Tasks
   console.log((new Date().toLocaleTimeString())
 
-}).everyMinutes().run()
+}).everyMinutes().start()
 ```
 
 ## API
