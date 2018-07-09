@@ -1,6 +1,6 @@
 {
   "name": "node-cron-expressive",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Node cron with expressive code.",
   "main": "src/index.js",
   "scripts": {
