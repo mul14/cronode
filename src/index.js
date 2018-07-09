@@ -99,5 +99,6 @@ class Cron {
     return this
   }
 
-
 }
+
+module.exports = Cron
