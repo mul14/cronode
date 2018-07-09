@@ -18,7 +18,7 @@ class Cron {
     return this._instance
   }
 
-  run() {
+  start() {
     const job = new CronJob({
       cronTime: this.at,
       onTick: this.fn,
@@ -27,6 +27,8 @@ class Cron {
     })
 
     job.start()
+
+    return job
   }
 
   before() {
