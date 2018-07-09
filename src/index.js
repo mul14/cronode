@@ -23,6 +23,7 @@ class Cron {
       cronTime: this.at,
       onTick: this.fn,
       runOnInit: true,
+      start: false,
       timeZone: this.tz
     })
 
