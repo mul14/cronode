@@ -29,17 +29,18 @@ Cron.job(() => {
 
 ## API
 
-| Method                 | Description      |
-|------------------------|------------------|
-| `run()`                | Run the task     |
-| `yearly()`             |                  |
-| `annually()`           |                  |
-| `monthly()`            |                  |
-| `weekly()`             |                  |
-| `daily()`              |                  |
-| `hourly()`             |                  |
-| `everyMinutes()`       |                  |
-| `everyFiveMinutes()`   |                  |
-| `everyTenMinutes()`    |                  |
-| `everyFifteenMinutes()`|                  |
-| `everyThirtyMinutes()` |                  |
+| Method                 | Example          | Description                      |
+|------------------------|------------------|----------------------------------|
+| `start()`              |                  | Run the task.                    |
+| `yearly()`             |                  | Run the task every year.         |
+| `annually()`           |                  |                                  |
+| `monthly()`            |                  |                                  |
+| `weekly()`             |                  |                                  |
+| `dailyAt(time)`        | dailyAt('14:20') | Run task daily at specific time. |
+| `daily()`              |                  |                                  |
+| `hourly()`             |                  |                                  |
+| `everyMinutes()`       |                  |                                  |
+| `everyFiveMinutes()`   |                  |                                  |
+| `everyTenMinutes()`    |                  |                                  |
+| `everyFifteenMinutes()`|                  |                                  |
+| `everyThirtyMinutes()` |                  |                                  |
