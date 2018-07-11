@@ -120,6 +120,41 @@ class Cron {
     return this
   }
 
+  sundays() {
+    this.at = '* * * * 0'
+    return this
+  }
+
+  mondays() {
+    this.at = '* * * * 1'
+    return this
+  }
+
+  tuesdays() {
+    this.at = '* * * * 2'
+    return this
+  }
+
+  wednesdays() {
+    this.at = '* * * * 3'
+    return this
+  }
+
+  thursdays() {
+    this.at = '* * * * 4'
+    return this
+  }
+
+  fridays() {
+    this.at = '* * * * 5'
+    return this
+  }
+
+  saturdays() {
+    this.at = '* * * * 6'
+    return this
+  }
+
 }
 
 module.exports = Cron

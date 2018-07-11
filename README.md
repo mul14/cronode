@@ -44,3 +44,10 @@ Cron.job(() => {
 | `everyTenMinutes()`    |                  |                                  |
 | `everyFifteenMinutes()`|                  |                                  |
 | `everyThirtyMinutes()` |                  |                                  |
+| `mondays()`            |                  |                                  |
+| `tuesdays()`           |                  |                                  |
+| `wednesdays()`         |                  |                                  |
+| `thursdays()`          |                  |                                  |
+| `fridays()`            |                  |                                  |
+| `saturdays()`          |                  |                                  |
+| `sundays()`            |                  |                                  |
