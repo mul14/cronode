@@ -5,7 +5,9 @@ class Cron {
   constructor() {
     this._instance = null
     this.fn = null
-    this.tz = 'UTC'
+    this.at = '* * * * *'
+    this.tz = ''
+    this.runOnInit = false
   }
 
   static job(callback) {
@@ -18,11 +20,11 @@ class Cron {
     return this._instance
   }
 
-  start() {
+  start(now = false) {
     const job = new CronJob({
       cronTime: this.at,
       onTick: this.fn,
-      runOnInit: true,
+      runOnInit: now,
       start: false,
       timeZone: this.tz
     })
@@ -62,6 +64,24 @@ class Cron {
 
   weekly() {
     this.at = '0 0 * * 0'
+    return this
+  }
+
+  /**
+   * Runs daily job at specific time.
+   *
+   * @param {string} time  Time in 24 hours format (e.g 14:38).
+   */
+  dailyAt(time) {
+    const [hour, minutes] = time.split(':')
+
+    const segments = this.at.split(' ')
+
+    segments[0] = minutes
+    segments[1] = hour
+
+    this.at = segments.join(' ')
+
     return this
   }
 
