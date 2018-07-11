@@ -52,11 +52,6 @@ class Cron {
     return this
   }
 
-  annually() {
-    this.at = '0 0 1 1 *'
-    return this
-  }
-
   monthly() {
     this.at = '0 0 1 * *'
     return this
