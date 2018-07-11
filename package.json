@@ -1,12 +1,16 @@
 {
   "name": "cronode",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "Cron for Node.js with expressive code.",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": ["cron", "node", "schedule"],
+  "keywords": [
+    "cron",
+    "node",
+    "schedule"
+  ],
   "author": "Mulia Arifandi Nasution <mul14.net@gmail.com>",
   "license": "MIT",
   "dependencies": {
