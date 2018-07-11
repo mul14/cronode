@@ -33,9 +33,9 @@ Cron.job(() => {
 |------------------------|------------------|----------------------------------|
 | `start()`              |                  | Run the task.                    |
 | `yearly()`             |                  | Run the task every year.         |
-| `annually()`           |                  |                                  |
 | `monthly()`            |                  |                                  |
 | `weekly()`             |                  |                                  |
+| `days()`               | days(0, 3, 5)    | Run task every Sundays, Wednesdays, and Fridays |
 | `dailyAt(time)`        | dailyAt('14:20') | Run task daily at specific time. |
 | `daily()`              |                  |                                  |
 | `hourly()`             |                  |                                  |
@@ -44,10 +44,10 @@ Cron.job(() => {
 | `everyTenMinutes()`    |                  |                                  |
 | `everyFifteenMinutes()`|                  |                                  |
 | `everyThirtyMinutes()` |                  |                                  |
+| `sundays()`            |                  |                                  |
 | `mondays()`            |                  |                                  |
 | `tuesdays()`           |                  |                                  |
 | `wednesdays()`         |                  |                                  |
 | `thursdays()`          |                  |                                  |
 | `fridays()`            |                  |                                  |
 | `saturdays()`          |                  |                                  |
-| `sundays()`            |                  |                                  |

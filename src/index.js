@@ -115,6 +115,16 @@ class Cron {
     return this
   }
 
+  days() {
+    const args = Array.isArray(arguments[0])
+      ? arguments[0]
+      : Object.values(arguments)
+
+    this.at = '* * * * ' + args.join(',')
+
+    return this
+  }
+
   sundays() {
     this.at = '* * * * 0'
     return this
