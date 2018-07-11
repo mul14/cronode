@@ -1,6 +1,6 @@
 {
   "name": "cronode",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Cron for Node.js with expressive code.",
   "main": "src/index.js",
   "scripts": {
