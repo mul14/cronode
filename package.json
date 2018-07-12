@@ -1,6 +1,6 @@
 {
   "name": "cronode",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Cron for Node.js with expressive code.",
   "author": "Mulia Arifandi Nasution <mul14.net@gmail.com>",
   "license": "MIT",
