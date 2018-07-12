@@ -2,17 +2,25 @@
   "name": "cronode",
   "version": "0.0.5",
   "description": "Cron for Node.js with expressive code.",
-  "main": "src/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "author": "Mulia Arifandi Nasution <mul14.net@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mul14/cronode.git"
   },
+  "bugs": {
+    "url": "https://github.com/mul14/cronode/issues"
+  },
+  "homepage": "https://github.com/mul14/cronode#readme",
   "keywords": [
     "cron",
     "node",
     "schedule"
   ],
-  "author": "Mulia Arifandi Nasution <mul14.net@gmail.com>",
-  "license": "MIT",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "dependencies": {
     "cron": "^1.3.0"
   }

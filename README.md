@@ -35,8 +35,8 @@ Cron.job(() => {
 | `yearly()`             |                  | Run the task every year.         |
 | `monthly()`            |                  |                                  |
 | `weekly()`             |                  |                                  |
-| `days()`               | days(0, 3, 5)    | Run task every Sundays, Wednesdays, and Fridays |
-| `dailyAt(time)`        | dailyAt('14:20') | Run task daily at specific time. |
+| `days()`               | `days(0, 3, 5)`  | Run task every Sundays, Wednesdays, and Fridays |
+| `dailyAt(time)`        | `dailyAt('14:20')`| Run task daily at specific time.|
 | `daily()`              |                  |                                  |
 | `hourly()`             |                  |                                  |
 | `everyMinutes()`       |                  |                                  |
@@ -51,3 +51,7 @@ Cron.job(() => {
 | `thursdays()`          |                  |                                  |
 | `fridays()`            |                  |                                  |
 | `saturdays()`          |                  |                                  |
+
+## License
+
+Software licensed under the [MIT license](https://opensource.org/licenses/MIT).
